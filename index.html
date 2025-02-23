@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pulled off School Book Shelves: the Sweeping Book Removal Wave</title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-size: 24px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-rendering: optimizeLegibility;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .header {
+      padding: 3em 0;
+    }
+
+    .h1 {
+      order: -1;
+      font-size: 3em;
+      max-width: 80%;
+    }
+
+    a {
+      color: #f05349;
+    }
+
+    .footer {
+      background: #f4f4f4;
+      text-align: center;
+      font-size: 0.8em;
+      margin-top: 1em;
+      padding: 4em 0;
+    }
+
+    figure {
+      margin: 0;
+      padding-bottom: 1.2em;
+    }
+
+    figcaption {
+      font-size: 0.8em;
+      text-align: center;
+      margin-top: 0.5em;
+      color: #666;
+    }
+
+    .caption {
+      font-size: 0.8em; 
+      text-align: center; 
+      margin-top: 0.5em;
+      color: #666; 
+      display: block;
+      unicode-bidi: isolate; 
+    }
+
+    h1 {
+      font-family: 'Lora', Georgia, serif;
+      font-weight: bold;
+      font-size: 3em;
+      line-height: 1.1
+    }
+
+    .subhead {
+      margin-bottom: -3em; 
+    }
+
+    .byline {
+      margin-top: 0em; 
+    }
+
+    iframe,
+    img,
+    video {
+      max-width: 100%;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 0;
+      padding-bottom: 1.2em;
+    }
+
+    ul {
+      margin: 0;
+      padding-bottom: 1em;
+      line-height: 1.6;
+    }
+
+    iframe {
+      padding-bottom: 1.2em;
+    }
+
+    .full-width figure {
+      text-align: center;
+    }
+
+    code {
+      font-family: 'Courier New', monospace;
+      background: #fff880;
+    }
+
+    /* margin on mobile */
+    @media (max-width: 640px) {
+      body {
+        font-size: 18px;
+      }
+
+      .content {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+      }
+    }
+
+    /* Scrollytelling styles */
+    .scrolly-container {
+      position: relative;
+    }
+
+    .sticky-thing {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      background: #000; 
+    }
+
+    .sticky-thing img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+    }
+
+    .steps-container {
+      position: relative;
+      z-index: 2; 
+    }
+
+    .step {
+      width: 560px; 
+      height: auto; 
+      min-height: 100px; 
+      padding: 1.2em !important; 
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 60px rgba(0, 0, 0, 0.1);
+      margin: 0 auto 600px; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; 
+      text-align: left; 
+      overflow: hidden; 
+      white-space: normal; 
+      word-break: break-word; 
+      color: black; 
+      transform: translate(0px, 0px); 
+      font-size: 24px;
+    }
+
+    .steps-container::after {
+    content: '';
+    display: block;
+    margin: 0 auto 3vh;
+    height: 50vh; 
+    }
+  </style>
+
+  <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.2.0/scrollama.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+</head>
+
+<body>
+  <div class="content">
+    <div class="header with-image-bg">
+      <h1>Pulled off <br> School Book Shelves: <br> the Sweeping Book Removal Wave</h1>
+      <p class="subhead">A data-driven project analyzing the long-standing popularity of Jean Grey, aka the Dark Phoenix in X-Men.</p>
+    </div>
+    
+    <div class="byline">
+      <p>By <a href="https://shuoshuobar.github.io/Portfolio_Site/">Yushuo Wang</a></p>
+    </div>
+    <p>The past academic year has seen an unprecedented surge in book bans, reaching the 10,000 plus springboard for the first time, a significant jump from the 3,362 records of the previous year. 
+       This at the same time tripled the number of banned book titles, per annual Index of School Book Bans data collected by PEN America, a non-profit organization dedicated to the protection of free expression in the United States. </p>
+    <p>"It's important to know that we don’t always have control as the people who have the control. 
+       I think that it is important to see what could happen because [some books] seem dystopian, but then, when you really look at it, some of them are very possible," 
+       said Emma Saylor, a full-time staff at Book Culture on 112 Street.</p>
+       <figure>
+        <img
+          src="Book Culture.jpg">
+        <figcaption>Book Culture on 112 Street keeps an open shelf for banned books</figcaption>
+    </figure>
+    <p>A reason she considered banning books like 1984 and The Handmaid's Tale is that they highlight what could happen to the government and what it could do to the people.</p>
+    <p>"They are not anti-government, but I think the people in charge see it as that, and they don't want that warning. They don't want that message shared; they don’t want us to know," Saylor said.</p>
+  </div>
+
+  <!-- Scrollytelling section -->
+  <section id="scrolly-images" class="scrolly-container">
+    <div class="sticky-thing">
+      <img src="BannedBooksDrawing.jpg" alt="Sticky Image">
+    </div>
+
+    
+    <div class="steps-container">
+      <div class="step" id="step1">
+        <p>Along with the rising number of book bans is the unchallenged prominence of Ellen Hopkins, who, in three consecutive years, is related to the most book ban instances across the country.</p> 
+        <p>The 2023-2024 school year stranded Hopkins with the most bans, over 500. 
+           Her novel Crank, a drug addiction tale of a 17-year-old girl, remained two years on the top ten banned books list. 
+        </p>
+      </div>
+      <div class="step" id="step2">
+        <p>Last year, the book-ban championship (victim) landed in the hands of Jodi Picoult. 
+           The title — <em> Nineteen Minutes </em> — repeated itself 98 times as it ranked first among all banned book titles. </p>
+      </div>
+      <div class="step" id="step3">
+        <p>"Having the most banned book in the country is not a badge of honor – it's a call for alarm. 
+           <em> Nineteen Minutes </em> is banned not because it's about a school shooting, but the because of a single page that depicts a date rape and uses anatomically correct words for the human body," Picoult said. </p>
+        <p>"In fact, hundreds of kids have told me that reading <em> Nineteen Minutes </em> stopped them from committing a school shooting, or showed them they were not alone in feeling isolated."</p>
+      </div>
+      <div class="step" id="step4">
+        <p>Also frequently appearing on the banned books list for at least two years in the top ten are <em>Looking for Alaska</em>, <em>Sold</em>, and <em>Thirteen Reasons Why</em>, with their controversial subject matter often keeping them out of reach from readers.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="content">
+    <p class="caption">Hand-drawn infographic of Banned Books Week by Brennah Lee</p>
+    <p>Books with sexual content and abuse themes, followed by substance use or abuse and violence or racism concerning topics, tended to be under major censorship. 
+       The rest banned content targeted LGBTQ+ people and characters and mental illness-related narratives.  </p>
+    <figure>
+        <img
+          src="treemap.png">
+        <figcaption>Subject matter of top ten banned book titles from 2021 to 2024</figcaption>
+    </figure>
+    
+    
+    <p>State-wise, Florida and Iowa turned out with the most bans in the 2023-2024 school year. 
+       Book bans in these two states reeled from state legislation, taking together effect with initiatives from local districts.</p>
+  </div>
+
+  <div class="content">
+    <figure>
+        <iframe src="https://datawrapper.dwcdn.net/Jk5RN/15/" width="660" height="549" frameborder="0" class="datawrapper-map"></iframe>
+      <figcaption>Distribution of banned books by state in 2023-2024</figcaption>
+    </figure>
+    <p>Florida’s <a target="_new" href="https://legiscan.com/FL/text/H1069/id/2798335"> HB1069</a>, which came into force in July 2023, requires the removal of books challenged for “sexual conduct” during the review process. 
+       The <a target="_new" href="https://www.fftrp.org/"> Florida Freedom to Read Project</a>, a parent and advocacy organization, coupled with local book-challenging individuals and groups, sharply raised the book bans in Florida. 
+    </p>
+    <p>The same month in 2023, <a target="_new" href="https://legiscan.com/IA/text/SF496/id/2794529"> SF's 496</a> went into effect in Iowa. The law asks all books to be "age-appropriate", and this entails content of sex-act.
+       Also part of the law keeps <a target="_new" href="https://pen.org/4-new-dont-say-gay-laws-passed-in-2023/"> “Don’t Say Gay”</a> copycat provisions, posing strict restrictions on class discussions of LGBTQ+ identities.
+    </p>
+    <figure>
+        <iframe src="https://datawrapper.dwcdn.net/cCKIt/10/" width="880" height="800" frameborder="0" class="datawrapper-map"></iframe>
+        <figcaption>State-wise book ban instances in three school years</figcaption>
+    </figure>
+    <p>“A good way to go about explicit content or something that might not be age-appropriate at the stage of someone’s development is to have trigger warnings that go along with the book or a little card explaining what happens in the book, read at your own risk. 
+       Some young adult books contain sexual assault or abuse, but I don’t think they should be banned just because of that,” Saylor said. </p>
+  </div>
+  <div class="footer">
+    <div class="content">
+      <p>If you are interested in my data and analysis process, please click <a href="https://github.com/yatingw24/X-men">here</a></p>
+    </div>
+  </div>
+
+  <script>
+    /*************
+    
+    This is the JavaScript that makes the scrolly work 
+    
+    *************/
+
+    /* 
+    This part attaches a scroll to the element with id="scrolly-images"    
+    */
+    (() => {
+      const scroller = scrollama();
+
+      scroller
+        .setup({
+          parent: document.querySelector("#scrolly-images"),
+          step: ".step",
+          offset: 0.6
+        })
+        .onStepEnter(function ({ element, index, direction }) {
+          const event = new CustomEvent("stepin", { detail: { direction: direction } });
+          element.dispatchEvent(event);
+        })
+        .onStepExit(function ({ element, index, direction }) {
+          const event = new CustomEvent("stepout", { detail: { direction: direction } });
+          if (direction === "up" && element.previousElementSibling) {
+            const event = new CustomEvent("stepin", { detail: { direction: direction } });
+            element.previousElementSibling.dispatchEvent(event);
+          }
+        });
+
+      window.addEventListener("resize", scroller.resize);
+    })();
+
+    /*
+    This part sets up your actions. In this case, it's changing the image in the scrolly container.
+    */
+    d3.select("#step1").on('stepin', (e) => {
+      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "BannedBooksDrawing.jpg");
+    });
+
+    d3.select("#step2").on('stepin', (e) => {
+      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "BannedBooksDrawing.jpg");
+    });
+
+    d3.select("#step3").on('stepin', (e) => {
+      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "BannedBooksDrawing.jpg");
+    });
+
+    d3.select("#step4").on('stepin', (e) => {
+      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "BannedBooksDrawing.jpg");
+    });
+  </script>
+</body>
+
+</html>
