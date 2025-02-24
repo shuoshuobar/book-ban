@@ -22,7 +22,6 @@ Download the Index of School Book Bans datasets of the 2021-2022, 2022-2023 and 
 4. DataWrapper: map plotting
 5. HTML: Webpage with scrollytelling style
 
-## Looking Ahead:
-1. Chart Type Selection: I'm still thinking about how to better visualize the 7 racial groups on one chart or fewer charts to create a more digestable, side-by-side comparison of their low food access population change from 2015 to 2019.
-2. Consideration of Other Variables: If I had more time, it would be interesting to take households' access to vehicles into account as well and see how it works with distance in miles to affect racial groups.
-3. Research: Search for policies/subsidies in 2015 and 2019 to better understand possible reasons for the still worse low food access situation for Black or African Americans and better situation for Native Hawaiians and other Pacific Islanders, and American Indians or Alaska Natives.
+## Limitation/Looking Ahead:
+1. I have tried hard using ggpattern with an image of a book stack but had a hard time fitting the often distorted image outlook.
+2. Had I know how to use Illustrator, a pictogram of small book icons could be an interesting visualization. 
