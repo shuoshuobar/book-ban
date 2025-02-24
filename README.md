@@ -1,10 +1,10 @@
 # Pulled off School Bookshelves: the Sweeping Book Removal Wave
 
 ## Goal:
-Compare and see how the low food access situation has changed across 7 racial groups (American Indians or Alaska Natives, Asians, Black or African Americans, Hispanic or Latino, Native Hawaiians and other Pacific Islanders, White and people with other or multiple race) from 2015 to 2019.
+Analyze and visualize the situation of book ban across the United States.
 
 ## Findings:
-While low food access appeared on the mend for most racial groups since 2015, a growing number of Black or African Americans still faced challenges accessing food resources in 2019. Native Hawaiians and other Pacific Islanders, as well as American Indians or Alaska Natives, came with the most notable improving shifts.
+The past academic year has seen an unprecedented surge in book bans, reaching the 10,000 plus springboard for the first time, a significant jump from the 3,362 records of the previous year. State-wise, Florida and Iowa turned out with the most bans in the 2023-2024 school year. Book bans in these two states reeled from state legislation, taking together effect with initiatives from local districts. 
 
 ## Process of Data Collection:
 1. Download the Food Access Research Atlas datasets for both 2019 and 2015 from Food Access Research Atlas: https://www.ers.usda.gov/data-products/food-access-research-atlas.
