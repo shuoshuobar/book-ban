@@ -7,19 +7,13 @@ Analyze and visualize the situation of book ban across the United States.
 The past academic year has seen an unprecedented surge in book bans, reaching the 10,000 plus springboard for the first time, a significant jump from the 3,362 records of the previous year. State-wise, Florida and Iowa turned out with the most bans in the 2023-2024 school year. Book bans in these two states reeled from state legislation, taking together effect with initiatives from local districts. 
 
 ## Process of Data Collection:
-1. Download the Food Access Research Atlas datasets for both 2019 and 2015 from Food Access Research Atlas: https://www.ers.usda.gov/data-products/food-access-research-atlas.
-2. Based on the four distance categories — half a mile, one mile, 10 miles and 20 miles — to a food resource, set up 7 Excel tables (with one 2019 sheet and one 2015 sheet) including columns that count population with low food access at each distance degree for the 7 racial groups.
-
+Download the Index of School Book Bans datasets of the 2021-2022, 2022-2023 and 2023-2024 school years from PEN America: https://www.ers.usda.gov/data-products/food-access-research-atlas](https://pen.org/book-bans/pen-america-index-of-school-book-bans-2023-2024/.
+   
 ## Process of Data Analysis:
-1. Data Cleaning:
-a) For the 7 Excel tables, cut out missing population data on low food access.
-b) Filter 2015 data sheets to only include rows with the same Census Tract as 2019 data sheets.
-
-2. Add up the total population with low access population at half a mile, one mile, 10 miles and 20 miles.
-3. Create dictionaries to store both the 2015 and 2019 data for each distance degree.
-4. Combine the 2015 and 2019 dictionaries and turn them into dataframes.
-5. For each racial group, upload resulting dataframes to DataWrapper to plot "Grouped Bars" charts.
-6. Look up for increase and or decrease in population with low food access from 2015 to 2019.
+1. Filter the top ten banned book titles of the three school years and research their subject matter.
+2. Set up a treemap to visualize the division of the subject matter among top ten banned book titles from 2021 to 2024
+3. Create a dataframe documenting the number of banned book instances by state and school year.
+4. Map the instances of book bans by state in 2023-2024 using DataWrapper
 
 ## Skills/Approaches in Use:
 1. Excel - data collection
