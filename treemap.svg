@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='860.00pt' height='600.00pt' viewBox='0 0 860.00 600.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw4NjAuMDB8MC4wMHw2MDAuMDA='>
+    <rect x='0.00' y='0.00' width='860.00' height='600.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw4NjAuMDB8MC4wMHw2MDAuMDA=)'>
+<rect x='0.00' y='0.00' width='860.00' height='600.00' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpNS40OHw4NTQuNTJ8MzEuMzV8NTcyLjM2'>
+    <rect x='5.48' y='31.35' width='849.04' height='541.01' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNS40OHw4NTQuNTJ8MzEuMzV8NTcyLjM2)'>
+<rect x='5.48' y='31.35' width='849.04' height='541.01' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<polygon points='517.35,351.95 849.54,351.95 849.34,351.94 850.14,351.91 850.93,351.75 851.67,351.47 852.37,351.07 852.99,350.56 853.52,349.96 853.95,349.28 854.26,348.54 854.46,347.77 854.52,346.97 854.52,346.97 854.52,196.63 854.52,196.63 854.46,195.83 854.26,195.05 853.95,194.31 853.52,193.64 852.99,193.04 852.37,192.53 851.67,192.13 850.93,191.85 850.14,191.68 849.54,191.65 517.35,191.65 517.95,191.68 517.15,191.65 516.35,191.75 515.58,191.97 514.86,192.32 514.20,192.77 513.62,193.33 513.14,193.97 512.77,194.68 512.51,195.44 512.39,196.23 512.37,196.63 512.37,346.97 512.39,346.57 512.39,347.37 512.51,348.16 512.77,348.92 513.14,349.63 513.62,350.27 514.20,350.82 514.86,351.28 515.58,351.62 516.35,351.85 517.15,351.94 ' style='stroke-width: 0.38; stroke: #FFFFFF; fill: #A69E91;' />
+<polygon points='517.35,191.65 849.54,191.65 849.34,191.64 850.14,191.61 850.93,191.45 851.67,191.17 852.37,190.77 852.99,190.26 853.52,189.66 853.95,188.98 854.26,188.24 854.46,187.47 854.52,186.67 854.52,186.67 854.52,36.33 854.52,36.33 854.46,35.53 854.26,34.75 853.95,34.02 853.52,33.34 852.99,32.74 852.37,32.23 851.67,31.83 850.93,31.55 850.14,31.39 849.54,31.35 517.35,31.35 517.95,31.39 517.15,31.35 516.35,31.45 515.58,31.67 514.86,32.02 514.20,32.47 513.62,33.03 513.14,33.67 512.77,34.38 512.51,35.14 512.39,35.93 512.37,36.33 512.37,186.67 512.39,186.27 512.39,187.07 512.51,187.86 512.77,188.62 513.14,189.33 513.62,189.97 514.20,190.53 514.86,190.98 515.58,191.32 516.35,191.55 517.15,191.64 ' style='stroke-width: 0.38; stroke: #FFFFFF; fill: #5C6A6B;' />
+<polygon points='10.46,572.36 507.39,572.36 507.19,572.35 507.99,572.32 508.77,572.16 509.52,571.88 510.22,571.48 510.84,570.97 511.37,570.37 511.80,569.69 512.11,568.95 512.31,568.18 512.37,567.38 512.37,567.38 512.37,185.11 512.37,185.11 512.31,184.31 512.11,183.53 511.80,182.79 511.37,182.12 510.84,181.52 510.22,181.01 509.52,180.61 508.77,180.32 507.99,180.16 507.39,180.13 10.46,180.13 11.06,180.16 10.26,180.13 9.46,180.23 8.69,180.45 7.97,180.79 7.31,181.25 6.73,181.80 6.25,182.45 5.88,183.16 5.62,183.92 5.50,184.71 5.48,185.11 5.48,567.38 5.50,566.98 5.50,567.78 5.62,568.57 5.88,569.33 6.25,570.04 6.73,570.68 7.31,571.24 7.97,571.69 8.69,572.03 9.46,572.26 10.26,572.35 ' style='stroke-width: 0.38; stroke: #FFFFFF; fill: #A85E59;' />
+<polygon points='10.46,180.13 507.39,180.13 507.19,180.12 507.99,180.09 508.77,179.93 509.52,179.65 510.22,179.25 510.84,178.74 511.37,178.14 511.80,177.46 512.11,176.72 512.31,175.94 512.37,175.15 512.37,175.15 512.37,36.33 512.37,36.33 512.31,35.53 512.11,34.75 511.80,34.02 511.37,33.34 510.84,32.74 510.22,32.23 509.52,31.83 508.77,31.55 507.99,31.39 507.39,31.35 10.46,31.35 11.06,31.39 10.26,31.35 9.46,31.45 8.69,31.67 7.97,32.02 7.31,32.47 6.73,33.03 6.25,33.67 5.88,34.38 5.62,35.14 5.50,35.93 5.48,36.33 5.48,175.15 5.50,174.74 5.50,175.55 5.62,176.34 5.88,177.10 6.25,177.81 6.73,178.45 7.31,179.00 7.97,179.46 8.69,179.80 9.46,180.03 10.26,180.12 ' style='stroke-width: 0.38; stroke: #FFFFFF; fill: #B18F88;' />
+<polygon points='517.35,572.36 849.54,572.36 849.34,572.35 850.14,572.32 850.93,572.16 851.67,571.88 852.37,571.48 852.99,570.97 853.52,570.37 853.95,569.69 854.26,568.95 854.46,568.18 854.52,567.38 854.52,567.38 854.52,356.93 854.52,356.93 854.46,356.13 854.26,355.35 853.95,354.61 853.52,353.94 852.99,353.34 852.37,352.83 851.67,352.43 850.93,352.14 850.14,351.98 849.54,351.95 517.35,351.95 517.95,351.98 517.15,351.95 516.35,352.05 515.58,352.27 514.86,352.61 514.20,353.07 513.62,353.63 513.14,354.27 512.77,354.98 512.51,355.74 512.39,356.53 512.37,356.93 512.37,567.38 512.39,566.98 512.39,567.78 512.51,568.57 512.77,569.33 513.14,570.04 513.62,570.68 514.20,571.24 514.86,571.69 515.58,572.03 516.35,572.26 517.15,572.35 ' style='stroke-width: 0.38; stroke: #FFFFFF; fill: #6A7F7D;' />
+<text x='515.20' y='208.34' style='font-size: 20.00px; font-weight: bold;fill: #FFFFFF; font-family: "Georgia";' textLength='176.17px' lengthAdjust='spacingAndGlyphs'>LGBTQ+ Content</text>
+<text x='515.20' y='48.04' style='font-size: 20.00px; font-weight: bold;fill: #FFFFFF; font-family: "Georgia";' textLength='145.95px' lengthAdjust='spacingAndGlyphs'>Mental Illness</text>
+<text x='8.31' y='203.76' style='font-size: 30.00px; font-weight: bold;fill: #FFFFFF; font-family: "Georgia";' textLength='342.43px' lengthAdjust='spacingAndGlyphs'>Sexual Content/Abuse</text>
+<text x='8.31' y='49.03' style='font-size: 21.43px; font-weight: bold;fill: #FFFFFF; font-family: "Georgia";' textLength='237.28px' lengthAdjust='spacingAndGlyphs'>Substance Use/Abuse</text>
+<text x='515.20' y='369.63' style='font-size: 21.43px; font-weight: bold;fill: #FFFFFF; font-family: "Georgia";' textLength='296.84px' lengthAdjust='spacingAndGlyphs'>Violence/Racism Concerns</text>
+</g>
+<g clip-path='url(#cpMC4wMHw4NjAuMDB8MC4wMHw2MDAuMDA=)'>
+<text x='5.48' y='21.23' style='font-size: 22.00px; font-weight: bold; font-family: "Arial";' textLength='837.73px' lengthAdjust='spacingAndGlyphs'>Many more books removed from shelves over sexual content and abuse themes</text>
+<text x='5.48' y='590.73' style='font-size: 18.00px; font-family: "Arial";' textLength='420.85px' lengthAdjust='spacingAndGlyphs'>Data source: PEN America | Treemap: Yushuo Wang</text>
+</g>
+</svg>
