@@ -10,10 +10,10 @@ The past academic year has seen an unprecedented surge in book bans, reaching th
 Download the Index of School Book Bans datasets of the 2021-2022, 2022-2023 and 2023-2024 school years from PEN America: https://pen.org/book-bans/pen-america-index-of-school-book-bans-2023-2024/.
    
 ## Process of Data Analysis:
-1. Filter the top ten banned book titles of the three school years and research their subject matter.
+1. Filtered the top ten banned book titles of the three school years and research their subject matter.
 2. Set up a treemap to visualize the division of the subject matter among top ten banned book titles from 2021 to 2024
-3. Create a dataframe documenting the number of banned book instances by state and school year.
-4. Map the instances of book bans by state in 2023-2024 using DataWrapper
+3. Created a dataframe documenting the number of banned book instances by state and school year.
+4. Mapped the instances of book bans by state in 2023-2024 using DataWrapper
 
 ## Skills/Approaches in Use:
 1. Excel - data collection
