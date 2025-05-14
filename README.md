@@ -7,7 +7,7 @@ Analyze and visualize the situation of book ban across the United States.
 The past academic year has seen an unprecedented surge in book bans, reaching the 10,000 plus springboard for the first time, a significant jump from the 3,362 records of the previous year. State-wise, Florida and Iowa turned out with the most bans in the 2023-2024 school year. Book bans in these two states reeled from state legislation, taking together effect with initiatives from local districts. 
 
 ## Process of Data Collection:
-Download the Index of School Book Bans datasets of the 2021-2022, 2022-2023 and 2023-2024 school years from PEN America: https://www.ers.usda.gov/data-products/food-access-research-atlas](https://pen.org/book-bans/pen-america-index-of-school-book-bans-2023-2024/).
+Download the Index of School Book Bans datasets of the 2021-2022, 2022-2023 and 2023-2024 school years from PEN America: https://pen.org/book-bans/pen-america-index-of-school-book-bans-2023-2024/.
    
 ## Process of Data Analysis:
 1. Filter the top ten banned book titles of the three school years and research their subject matter.
